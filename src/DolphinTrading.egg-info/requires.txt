@@ -1,0 +1,5 @@
+pandas
+sphinx
+numpy
+matplotlib
+pillow

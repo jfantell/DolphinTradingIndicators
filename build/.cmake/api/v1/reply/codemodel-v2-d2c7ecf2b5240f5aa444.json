@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "indicators",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "indicators_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-indicators_core-Debug-7c0efa00f4b365d27538.json",
+					"name" : "indicators_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_first_derivative::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_first_derivative-Debug-4975b945423cdd257180.json",
+					"name" : "test_first_derivative",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/johnfantell/Desktop/DolphinTrading/build",
+		"source" : "/Users/johnfantell/Desktop/DolphinTrading/lib/Indicators"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

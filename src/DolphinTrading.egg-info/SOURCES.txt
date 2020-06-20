@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+src/DolphinTrading/__init__.py
+src/DolphinTrading/indicator_bindings.cpp
+src/DolphinTrading/python_indicators.py
+src/DolphinTrading.egg-info/PKG-INFO
+src/DolphinTrading.egg-info/SOURCES.txt
+src/DolphinTrading.egg-info/dependency_links.txt
+src/DolphinTrading.egg-info/not-zip-safe
+src/DolphinTrading.egg-info/requires.txt
+src/DolphinTrading.egg-info/top_level.txt

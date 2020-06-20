@@ -1,0 +1,2 @@
+include src/DolphinTrading/indicator_bindings.cpp
+recursive-include lib/Indicators/

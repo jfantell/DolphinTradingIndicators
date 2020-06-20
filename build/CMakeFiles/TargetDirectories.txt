@@ -1,0 +1,4 @@
+/Users/johnfantell/Desktop/DolphinTrading/build/CMakeFiles/rebuild_cache.dir
+/Users/johnfantell/Desktop/DolphinTrading/build/CMakeFiles/edit_cache.dir
+/Users/johnfantell/Desktop/DolphinTrading/build/CMakeFiles/test_first_derivative.dir
+/Users/johnfantell/Desktop/DolphinTrading/build/CMakeFiles/indicators_core.dir
