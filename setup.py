@@ -10,6 +10,9 @@ from distutils.version import LooseVersion
 from setuptools import setup, find_packages, Extension
 from setuptools.command.build_ext import build_ext
 
+'''
+Modified from https://www.benjack.io/2017/06/12/python-cpp-tests.html
+'''
 class CMakeExtension(Extension):
     def __init__(self, name, sourcedir=''):
         Extension.__init__(self, name, sources=[])
@@ -82,12 +85,12 @@ setup(
     package_dir={"": "src"},
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Operating System :: Ubuntu Linux",
+        "Operating System :: POSIX :: Linux"
     ],
     ext_modules=[CMakeExtension('DolphinTrading/indicator_bindings')],
     python_requires='>=3.6',
-    tests_require=['pytest'],
+    tests_require=['pytest>=5.4'],
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
-    install_requires=['pandas','sphinx','numpy','matplotlib','pillow']
+    install_requires=['pandas>=1.0','sphinx>=3.1','numpy>=1.18','matplotlib>=3.2','pillow>=7.1']
 )
