@@ -1,9 +1,0 @@
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/CMakeFiles/rebuild_cache.dir
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/CMakeFiles/edit_cache.dir
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/CMakeFiles/indicator_bindings.dir
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/lib/indicators/CMakeFiles/rebuild_cache.dir
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/lib/indicators/CMakeFiles/edit_cache.dir
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/lib/indicators/CMakeFiles/test_first_derivative.dir
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/lib/indicators/CMakeFiles/indicators_core.dir
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/lib/pybind11/CMakeFiles/rebuild_cache.dir
-/Users/johnfantell/Desktop/DolphinTrading/build/temp.macosx-10.15-x86_64-3.7/lib/pybind11/CMakeFiles/edit_cache.dir

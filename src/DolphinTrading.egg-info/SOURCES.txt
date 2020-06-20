@@ -1,5 +1,6 @@
 MANIFEST.in
 README.md
+pytest.ini
 setup.py
 src/DolphinTrading/__init__.py
 src/DolphinTrading/indicator_bindings.cpp
