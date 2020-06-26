@@ -1,2 +1,5 @@
 include src/DolphinTrading/indicator_bindings.cpp
 include pytest.ini
+include CMakeLists.txt
+graft tests
+graft lib

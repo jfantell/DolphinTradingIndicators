@@ -40,6 +40,7 @@ class CMakeBuild(build_ext):
     def build_extension(self, ext):
         extdir = os.path.abspath(
             os.path.dirname(self.get_ext_fullpath(ext.name)))
+
         cmake_args = ['-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=' + extdir,
                       '-DPYTHON_EXECUTABLE=' + sys.executable]
 
@@ -67,8 +68,6 @@ class CMakeBuild(build_ext):
                               cwd=self.build_temp, env=env)
         subprocess.check_call(['cmake', '--build', '.'] + build_args,
                               cwd=self.build_temp)
-        print()  # Add an empty line for cleaner output
-
 
 with open("README.md", "r") as f:
     long_description = f.read()
@@ -89,7 +88,6 @@ setup(
     ],
     ext_modules=[CMakeExtension('DolphinTrading/indicator_bindings')],
     python_requires='>=3.6',
-    tests_require=['pytest>=5.4'],
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
     install_requires=['pandas>=1.0','sphinx>=3.1','numpy>=1.18','matplotlib>=3.2','pillow>=7.1']
