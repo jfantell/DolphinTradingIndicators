@@ -11,6 +11,7 @@ from setuptools import setup, find_packages, Extension
 from setuptools.command.build_ext import build_ext
 
 '''
+Modified from https://github.com/pybind/cmake_example/blob/master/setup.py
 Modified from https://www.benjack.io/2017/06/12/python-cpp-tests.html
 '''
 class CMakeExtension(Extension):
