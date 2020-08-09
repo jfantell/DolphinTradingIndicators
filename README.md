@@ -1,4 +1,4 @@
-Demonstrates how to build a hybrid C++/Python package using CMake. Read the corresponding Medium article [here]().
+Demonstrates how to build a hybrid C++/Python package using CMake. Read the corresponding Medium article [here](https://medium.com/@jcfantell/building-hybrid-python-c-packages-8985fa1c5b1d).
 
 References:
 1. https://www.benjack.io/2017/06/12/python-cpp-tests.html
